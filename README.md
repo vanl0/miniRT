@@ -1,7 +1,7 @@
 # MiniRt, raytracing from scratch
 
 This project aims to explore the basics of one of the most popular techniques for realistic image generation: ray tracing.
-
+<img src="./images/img_1.png" width="100%" height="100%"/>
 Written in C and using the MiniLibX (X-Window programming API), it renders scenes composed of basic geometric primitives such as spheres, cylinders and planes, along with ambient and point lights and a camera defining the point of view.
 
 The project implements the Phong lighting model, separating ambient, diffuse and specular components to achieve more realistic shine overall.
