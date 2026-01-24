@@ -18,4 +18,4 @@ cy  50.0,0.0,20.6   0,0,1.0     14.2    21.42   10,0,255    //(Cylinder) positio
 ```
 
 The main resource to develop this ray tracer was the book *The Ray Tracer Challenge* by Jamis Buck, which describes step-by-step the basics and guidelines to build a ray tracing engine.
-[The Ray Tracer Challenge](https://www.raytracerchallenge.com/)
+[The Ray Tracer Challenge](http://raytracerchallenge.com/)
