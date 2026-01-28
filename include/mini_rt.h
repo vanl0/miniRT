@@ -14,10 +14,10 @@
 # define MINI_RT_H
 
 # ifndef WIDTH
-#  define WIDTH 1000
+#  define WIDTH 700
 # endif
 # ifndef HEIGHT
-#  define HEIGHT 800
+# 	define HEIGHT 700
 # endif
 # define BUFFER_SIZE 100
 # define CY_EPSILON 1e-6
