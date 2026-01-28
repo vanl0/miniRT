@@ -14,8 +14,22 @@ L   -40,0,30        0.7                         255,255,255 //(Light) position, 
 pl  0,0,0           0,1.0,0                     255,0,225   //(Plane) point, normal vector, color
 sp  0,0,20          20                          255,0,0     //(Sphere) position, diameter, color
 cy  50.0,0.0,20.6   0,0,1.0     14.2    21.42   10,0,255    //(Cylinder) position, direction, diameter, height, color
-
 ```
+
+To change the window resolution, go to ```include/mini_rt.h``` and adjust width and height values: 
+``` 
+# ifndef WIDTH
+#  define WIDTH 700
+# endif
+# ifndef HEIGHT
+# 	define HEIGHT 700
+# endif
+ ```
+<img src="./images/img_1.png" width="40%" height="40%"/><img src="./images/img_2.png" width="40%" height="40%"/><img src="./images/img_3.png" width="40%" height="40%"/>
+
+<img src="./images/img_4.png" width="100%" height="100%"/>
+
+<img src="./images/img_5.png" width="100%" height="100%"/>
 
 The main resource to develop this ray tracer was the book *The Ray Tracer Challenge* by Jamis Buck, which describes step-by-step the basics and guidelines to build a ray tracing engine.
 [The Ray Tracer Challenge](http://raytracerchallenge.com/)
