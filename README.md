@@ -6,6 +6,8 @@ Written in C and using the MiniLibX (X-Window programming API), it renders scene
 
 The project implements the Phong lighting model, separating ambient, diffuse and specular components to achieve more realistic shine overall.
 
+Since we use the MiniLibX API for linux, this program can only be used in Linux OS. You can build it using ```make``` and ```./miniRT <scene>.rt```
+
 The program takes as input a .rt file where the properties of the scene are defined. From the position and size of the shapes to the camera and lighting properties. A basic example of an ```.rt``` scene:
 ```
 A   0.2                                         255,255,255 //(Ambient light) lighting ratio, color
