@@ -25,7 +25,11 @@ To change the window resolution, go to ```include/mini_rt.h``` and adjust width 
 # 	define HEIGHT 700
 # endif
  ```
-<img src="./images/img_1.png" width="40%" height="40%"/><img src="./images/img_2.png" width="40%" height="40%"/><img src="./images/img_3.png" width="40%" height="40%"/>
+<p style="text-align: center;">
+  <img src="images/img1.png" width="32%" />
+  <img src="images/img2.png" width="32%" />
+  <img src="images/img3.png" width="32%" />
+</p>
 
 <img src="./images/img_4.png" width="100%" height="100%"/>
 
