@@ -27,13 +27,12 @@ To change the window resolution, go to ```include/mini_rt.h``` and adjust width 
 # 	define HEIGHT 700
 # endif
  ```
-<table align="center">
-  <tr>
-    <td><img src="images/img_1.png" width="200" /></td>
-    <td><img src="images/img_2.png" width="200" /></td>
-    <td><img src="images/img_3.png" width="200" /></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="images/img_1.png" width="32%" />
+  <img src="images/img_2.png" width="32%" />
+  <img src="images/img_3.png" width="32%" />
+</p>
+
 
 <img src="./images/img_4.png" width="100%" height="100%"/>
 
